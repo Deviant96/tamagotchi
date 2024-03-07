@@ -11,7 +11,7 @@ import Indicators from "../(components)/Indicators/page";
 import Loader from "../(components)/Loader/page";
 
 const CONTRACT_ID = process.env.NEXT_PUBLIC_CURRENT_CONTRACT_ID;
-const CREATURE_ID = process.env.NEXT_PUBLIC_CURRENT_CONTRACT_ID;
+const CREATURE_ID = process.env.NEXT_PUBLIC_CREATURE_ID;
 
 export default function Page() {
   const [stats, setStats] = useState({});
